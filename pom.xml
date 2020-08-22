@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.herry</groupId>
+    <artifactId>spring-microservices</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>lab-3-server</module>
+        <module>lab-3-client</module>
+        <module>lab-4-eureka-server</module>
+        <module>lab-4-subject</module>
+        <module>lab-4-verb</module>
+        <module>lab-4-article</module>
+        <module>lab-4-adjective</module>
+        <module>lab-4-noun</module>
+        <module>lab-4-sentence</module>
+        <module>lab-5-config-server</module>
+        <module>lab-5-eureka-server</module>
+        <module>lab-5-word-server</module>
+        <module>lab-5-sentence-server</module>
+        <module>common-config-server</module>
+        <module>common-eureka-server</module>
+        <module>lab-6-word-server</module>
+        <module>lab-6-sentence-server</module>
+        <module>lab-7-word-server</module>
+        <module>lab-7-sentence-server</module>
+        <module>lab-8-config-server</module>
+        <module>lab-8-client</module>
+        <module>lab-9.word-server</module>
+        <module>lab-9-gateway</module>
+    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>2.0.3.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <version>2.0.3.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+            <version>2.0.3.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.8.2</version>
+        </dependency>
+
+    </dependencies>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Finchley.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.0.3.RELEASE</version>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

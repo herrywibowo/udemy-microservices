@@ -1,0 +1,120 @@
+# Directories #
+/build/
+/bin/
+target/
+
+*/build/
+*/bin/
+*/target/
+
+# OS Files #
+**/.DS_Store
+ 
+**/*.class
+ 
+# Package Files #
+**/*.jar
+**/*.war
+**/*.ear
+**/*.db
+
+# Temporary document files #
+**/*.*~
+ 
+######################
+# Windows
+######################
+ 
+# Windows image file caches
+**/Thumbs.db 
+ 
+# Folder config file
+**/Desktop.ini
+ 
+######################
+# OSX
+######################
+ 
+**/.DS_Store
+**/.svn
+ 
+# Thumbnails
+**/._*
+ 
+# Files that might appear on external disk
+**/.Spotlight-V100
+**/.Trashes
+ 
+ 
+######################
+# Eclipse
+######################
+ 
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+*/.classpath
+.settings/
+.loadpath
+/src/main/resources/rebel.xml
+
+.component
+*.component
+
+*/*.pydevproject
+*/.project
+*/.metadata
+*/bin/**
+*/tmp/**
+*/tmp/**/*
+*/*.tmp
+*/*.bak
+*/*.swp
+*/*~.nib
+*/local.properties
+*/.classpath
+*/.settings/
+*/.loadpath
+*/src/main/resources/rebel.xml
+
+# External tool builders
+.externalToolBuilders/
+*/.externalToolBuilders/
+ 
+# Locally stored "Eclipse launch configurations"
+*.launch
+*/*.launch
+ 
+# CDT-specific
+.cproject
+*/.cproject
+ 
+# PDT-specific
+.buildpath
+*/.buildpath
+
+nbproject
+/nusatrip-payment-adyen/tools/
+/nusatrip-payment-adyen/swagger-codegen.bat
+*/temp/
+
+#intelij idea
+.idea/*
+*/*.iml
+*.iml*
+*/*.iml*
+mq*
+nusatrip-hotel/src/test/resources/outputhtmls/*.html
+/nusatrip-hotel/src/test/resources/*.html
+/nusatrip-hotel/src/test/resources/*.pdf
+nusatrip-hotel/src/test/resources/outputpdf/*.pdf
+nusatrip-hotel/src/test/resources/outputhtmls/*.html
